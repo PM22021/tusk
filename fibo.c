@@ -1,4 +1,5 @@
 #include<stdio.h>    
+# function to be added
 void printFibonacci(int n){    
     static int n1=0,n2=1,n3;    
     if(n>0){    
@@ -12,7 +13,8 @@ void printFibonacci(int n){
 int main(){    
     int n;    
     printf("Enter the number of elements: ");    
-    scanf("%d",&n);    
+    scanf("%d",&n);   
+    # print fibo series
     printf("Fibonacci Series: ");    
     printf("%d %d ",0,1);    
     printFibonacci(n-2);//n-2 because 2 numbers are already printed    
